@@ -14,6 +14,7 @@ This program introduces multithreading by creating a separate thread (TossThread
 In summary, both programs simulate coin tosses using the Random class, with the second program introducing the concept of multithreading for handling the toss logic.
 
 ## How to Run
+
 1. Open a terminal or command prompt:<br>
 &emsp; On Windows, you can use Command Prompt or PowerShell.<br>
 &emsp; On macOS or Linux, you can use the Terminal.
@@ -28,18 +29,24 @@ In summary, both programs simulate coin tosses using the Random class, with the 
    cd Toss-a-Coin
    ```
 
-4.Compile and the program 1:
+4.Compile the program 1:
    ```bash
   javac tossAcoin.java
+   ```
+   Run 
+   ```bash
   java tossAcoin
 
    ```
 
 5.Compile and run the program 2:
    ```bash
-   javac tossAcoin_usingThread.java
-   java tossAcoin_usingThread
+   javac TossACoin_Thread.java
+   ```
 
+   Run
+   ```bash
+   java TossACoin_Thread
    ```
 
 > **_NOTE:_**
