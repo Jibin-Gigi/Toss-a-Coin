@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class tossAcoin {
+public class TossACoin_Thread {
     public static void main(String[] args) {
         TossThread thread = new TossThread();
         thread.start();
