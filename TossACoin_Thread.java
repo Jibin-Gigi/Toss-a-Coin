@@ -1,9 +1,9 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class tossAcoin_usingThread {
+public class tossAcoin {
     public static void main(String[] args) {
-        tossThread thread=new tossThread();
+        TossThread thread = new TossThread();
         thread.start();
     }
 }
